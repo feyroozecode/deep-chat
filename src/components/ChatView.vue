@@ -77,7 +77,7 @@ export default {
       this.isMenuOpen = !this.isMenuOpen
     },
     sendMessage() {
-      if (!this.inputMessage.trim()) return
+      if (!this.inputMessage.trim() ) return
 
       this.messages.push({
         role: 'user',
@@ -158,6 +158,7 @@ export default {
 
 .user-message {
   background: #e0e0e0;
+  color: #222222;
   margin-left: auto;
 }
 
